@@ -1,0 +1,26 @@
+title: "&4&lRestablecer rangos"
+type: HOPPER
+sound: BLOCK_LEVER_CLICK
+
+options:
+  confirm:
+    material: GREEN_WOOL
+    sound: AMBIENT_CAVE
+    slot: 1
+    name: "&4Confirmar"
+    lore:
+      - "&6¿Estás seguro de que deseas restablecer"
+      - " todos los rangos personalizados hechos en tu reino?"
+      - "Hacerlo resultará que &ltodos &6tus"
+      - "miembros seran degradados a rango miembro."
+      - ""
+      - "Esto restablecerá la configuración de rango a su"
+      - "estado original definido por el servidor."
+      - "Esto incluye eliminar rangos recién creados y volver"
+      - "a agregar la configuración predeterminada para cada rango."
+  cancel:
+    material: RED_WOOL
+    sound: BLOCK_NOTE_BLOCK_BASS, 1, 1
+    slot: 3
+    name: "&cCancelar"
+    lore: [ "&6Cancelar la confirmación." ]

@@ -1,0 +1,189 @@
+title: "%rank_color%%rank_symbol% %rank_name%"
+rows: 5
+sound: ITEM_BOOK_PAGE_TURN
+
+options:
+  node:
+    name: "&2Nodo&8: &2%rank_node%"
+    material: EMERALD
+    sound: default
+    lore:
+      - "&6Nodo es básicamente el nombre del rango, pero"
+      - "sin colores ni caracteres especiales."
+      - "Esto se usa cuando usa el comando promote/demote."
+      - "No puede contener números y debe tener un máximo de 15 caracteres."
+    posx: 1
+    posy: 1
+  name:
+    name: "&5Nombre&8: &2%rank_name%"
+    material: DIAMOND
+    sound: default
+    lore:
+      - "&6El nombre de este rango."
+      - "Puede contener cualquier carácter, pero debe ser"
+      - "20 caracteres máx."
+      - "También puede contener códigos de colores."
+    posx: 2
+    posy: 1
+  material:
+    name: "&eMaterial&8: &2%rank_material%"
+    material: GOLD_INGOT
+    sound: default
+    lore:
+      - "&6El material utilizado para exhibir"
+      - "este rango en la GUI de rangos."
+      - "Debe utilizar los nombres de materiales más recientes"
+      - "incluso si el servidor se ejecuta en versiones antiguas."
+    posx: 3
+    posy: 1
+  symbol:
+    name: "&dSímbolo&8: &2%rank_symbol%"
+    material: IRON_INGOT
+    sound: default
+    lore:
+      - "&6Símbolo de este rango."
+      - "Solo puede tener 5 caracteres."
+      - "También admite colores."
+    posx: 4
+    posy: 1
+  color:
+    name: "%rank_color%Color"
+    material: COAL
+    sound: default
+    lore:
+      - "&6El color del chat para este rango."
+      - "Solo puede tener 5 caracteres."
+    posx: 5
+    posy: 1
+  priority:
+    name: "&aPrioridad&8: &2%rank_priority%"
+    material: PAPER
+    sound: default
+    lore:
+      - "&6La prioridad para este rango"
+      - "Tenga en cuenta que los números más"
+      - "bajos significan una prioridad más alta."
+      - "No puede cambiar la prioridad del rango de rey."
+    posx: 6
+    posy: 1
+  delete:
+    name: "&4Borrar"
+    material: BARRIER
+    sound: default
+    lore:
+      - "&6Elimina este rango."
+    posx: 8
+    posy: 1
+
+  alliance:
+    name: "&2Alianza"
+    material: GREEN_WOOL
+    sound: default
+    posx: 1
+    posy: 2
+  broadcast:
+    name: "&2Broadcast"
+    material: GREEN_WOOL
+    sound: default
+    posx: 2
+    posy: 2
+  edit-ranks:
+    name: "&2Editar rangos"
+    material: GREEN_WOOL
+    sound: default
+    posx: 3
+    posy: 2
+  enemy:
+    name: "&2Enemigo"
+    material: GREEN_WOOL
+    sound: default
+    posx: 4
+    posy: 2
+  home:
+    name: "&2Home"
+    material: GREEN_WOOL
+    sound: default
+    posx: 5
+    posy: 2
+  invite:
+    name: "&2Invitación"
+    material: GREEN_WOOL
+    sound: default
+    posx: 6
+    posy: 2
+  kick:
+    name: "&2Kick"
+    material: GREEN_WOOL
+    sound: default
+    posx: 7
+    posy: 2
+  nexus:
+    name: "&2Nexus"
+    material: GREEN_WOOL
+    sound: default
+    posx: 8
+    posy: 2
+  nexus-build:
+    name: "&2Construcción de Nexus"
+    material: GREEN_WOOL
+    sound: default
+    posx: 9
+    posy: 2
+  set-home:
+    name: "&2Establecer Home"
+    material: GREEN_WOOL
+    sound: default
+    posx: 1
+    posy: 3
+  truce:
+    name: "&2Tregua"
+    material: GREEN_WOOL
+    sound: default
+    posx: 2
+    posy: 3
+  manage-ranks:
+    name: "&2Administrar rangos"
+    material: GREEN_WOOL
+    sound: default
+    posx: 3
+    posy: 3
+  withdraw:
+    name: "&2Retirar"
+    material: GREEN_WOOL
+    sound: default
+    posx: 4
+    posy: 3
+  nation:
+    name: "&2Nación"
+    material: GREEN_WOOL
+    sound: default
+    posx: 5
+    posy: 3
+  exclude-tax:
+    name: "&2Excluir impuestos"
+    material: GREEN_WOOL
+    sound: default
+    posx: 6
+    posy: 3
+  relation-attributes:
+    name: "&2Atributos de relación"
+    material: GREEN_WOOL
+    sound: default
+    posx: 7
+    posy: 3
+  settings:
+    name: "&2Ajustes"
+    material: GREEN_WOOL
+    sound: default
+    posx: 8
+    posy: 3
+
+  back:
+    name: "&2Volver"
+    material: PLAYER_HEAD
+    sound: default
+    skull: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzQxMzNmNmFjM2JlMmUyNDk5YTc4NGVmYWRjZmZmZWI5YWNlMDI1YzM2NDZhZGE2N2YzNDE0ZTVlZjMzOTQifX19"
+    lore:
+      - "&6Vuelve al menú de rangos."
+    posx: 9
+    posy: 1

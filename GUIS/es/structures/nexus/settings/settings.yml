@@ -1,0 +1,94 @@
+title: "&8-=( &7Configuración &8)=-"
+rows: 1
+sound: ITEM_BOOK_PAGE_TURN
+
+options:
+  pacifism:
+    name: "&6Pacifista&8: %pacifism%"
+    material: END_CRYSTAL
+    lore:
+      - "&7Cuando estas en modo pacifista,"
+      - "tu Reino no puede ser invadido"
+      - "y tampoco puedes invadir otro Reino."
+      - ""
+      - "Si invades un Reino, no podras volver"
+      - "a estar en modo pacifista en 1 semana"
+      - ""
+      - "&2Tiempo de espera&8: &6%pacifism_cooldown%"
+    posx: 1
+    posy: 1
+  shields:
+    name: "&6Escudos&8: &2%kingdoms_shield_time_left%"
+    material: SHIELD
+    lore:
+      - "&7Compra escudos para tu Reino"
+      - "para proegerlo contra invasores."
+    posx: 2
+    posy: 1
+  invites:
+    name: "&6Invitaciones&8: %invites%"
+    material: BOOK
+    lore:
+      - "&7Cuando se deshabilita esto"
+      - "cualquiera podra entrar al Reino sin"
+      - "utilizar &2/k join %kingdoms_name%"
+    posx: 3
+    posy: 1
+  relations:
+    name: "&6Relaciones"
+    material: WRITABLE_BOOK
+    lore:
+      - "&7Cambia los atributos de tu"
+      - "relacion con/por otros Reinos."
+    posx: 4
+    posy: 1
+  tax:
+    name: "&6Impuestos"
+    material: PAPER
+    lore:
+      - "&7Cambia los impuestos"
+      - "de tu reino para miembros."
+      - ""
+      - "&6Impuestos&8: &2$%kingdoms_fancy_tax%"
+      - "&6Ecuación&8: &2%tax_equation%"
+      - ""
+      - "&6Impuesto de facturación&8: &2$%kingdoms_fancy_kingdom_tax%"
+    posx: 5
+    posy: 1
+  public-home:
+    name: "&6Home Publico&8: &2%public_home%"
+    material: DARK_OAK_DOOR
+    lore:
+      - "&7Puedes crear un Home publico"
+      - "para que otros puedan visitar"
+      - "usando &6/k home %kingdoms_name%"
+    posx: 6
+    posy: 1
+  flag:
+    name: "&6Flag"
+    material: BLACK_BANNER
+    lore:
+      - "&7Configura la bandera de tu Reyno para"
+      - "Dynmap. Clica en la URL."
+      - "Esto no actualizará el mapa al instante."
+    posx: 7
+    posy: 1
+  color:
+    name: "&6Color&8: &c%r%&7, &2%g%&7, &9%b% &7(&d%hex%&7)"
+    material: BLACK_DYE
+    lore:
+      - "&7Establece tu marcador de reino"
+      - "de color para Dynmap"
+      - "Esto no actualizará el mapa al instante."
+    posx: 8
+    posy: 1
+
+  back:
+    name: "&2Volver"
+    material: PLAYER_HEAD
+    sound: default
+    skull: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzQxMzNmNmFjM2JlMmUyNDk5YTc4NGVmYWRjZmZmZWI5YWNlMDI1YzM2NDZhZGE2N2YzNDE0ZTVlZjMzOTQifX19"
+    lore:
+      - "&6Regrese al menú nexus."
+    posx: 9
+    posy: 1
