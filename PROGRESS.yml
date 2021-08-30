@@ -1,1 +1,80 @@
-a
+#**** GUIS ****
+
+ en:
+    Confirm:
+        ranks:
+          - demote-all.yml -> |==========| 100%
+          - reset.yml -> |==========| 100%
+        - disband.yml -> |==========| 100%
+        - unclaimall.yml -> |==========| 100%
+    protection-signs:
+        - kindoms.yml -> |==========| 100%
+        - players.yml -> |==========| 100%
+        - protection-sign.yml -> |__________| 0%
+        - protection-type.yml -> |__________| 0%
+    structures:
+        nexus:
+            nation:
+                settings:
+                    - relation-editor.yml -> |==========| 100%
+                    - relations.yml -> |==========| 100%
+                    - settings.yml -> |==========| 100%
+                    - shields.yml -> |==========| 100%
+             - king-rank-editor.yml -> |==========| 100%
+             - nexus.yml -> |==========| 100%
+             - rank-editor.yml -> |==========| 100%
+             - ranks.yml -> |==========| 100%
+             - resource-points-converter.yml -> |==========| 100%
+            settings:
+                - relation-editor.yml -> |==========| 100%
+                - relations.yml -> |==========| 100%
+                - settings.yml -> |==========| 100%
+                - shields.yml -> |==========| 100%
+         - champions.yml -> |==========| 100%
+         - champion-settings.yml -> |==========| 100%
+         - champion-upgrades.yml -> |==========| 100%
+         - king-rank-editor.yml -> |==========| 100%
+         - logs.yml -> NOT INCLUDED
+         - mails.yml -> NOT INCLUDED
+         - member.yml -> |==========| 100%
+         - misc-upgrades.yml -> |==========| 100%
+         - nexus.yml -> |==========| 100%
+         - rank-editor.yml -> |==========| 100%
+         - ranks.yml -> |==========| 100%
+         - rank-selector.yml -> |==========| 100%
+         - resource-points-converter.yml -> |==========| 100%
+         - structures.yml -> |==========| 100%
+         - turrets.yml -> |==========| 100%
+        regulator:
+            - attribute-editor.yml -> |__________| 0%
+            - attributes.yml -> |__________| 0%
+            - interaction-editor.yml -> |__________| 0%
+            - interactions.yml -> |__________| 0%
+            - regulator.yml -> |__________| 0%
+            - rules.yml -> |__________| 0%
+        - extractor.yml -> |__________| 0%
+        - outpost.yml -> |__________| 0%
+        - powercell-yml -> |__________| 0%
+        - siege-cannon.yml -> |__________| 0%
+        - warppad.yml -> |__________| 0%
+    turrets:
+        - arrow.yml -> |__________| 0%
+        - flame.yml -> |__________| 0%
+        - healing.yml -> |__________| 0%
+        - heatbeam -> |__________| 0%
+        - hellfire -> |__________| 0%
+        - inferno.yml -> |__________| 0%
+        - psionic.yml -> |__________| 0%
+        - soldier.yml -> |__________| 0%
+    - book.yml -> |__________| 0%
+    - invites.yml -> |__________| 0%
+    - invsee.yml -> |__________| 0%
+ 
+
+
+#**** LANG ****
+
+ es: -> |==________| 20%
+
+# i will publish my progress here.
+ 
